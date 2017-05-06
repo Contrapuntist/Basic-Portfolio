@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('../images/topography.png'); 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #4aaaa5;
+	font-weight: bold;
+} 
+
+footer {
+	text-align: center;
+	background-color: #666666; 
+	line-height: 40px;
+	padding: 20px;	
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 5px;
+	overflow: visible;
+}
+
+.icons {
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.icons img {
+	width: 100px;
+}
+
+.contimg {
+	float: left;
+	margin-right: 10px;
+}
+
