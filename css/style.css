@@ -16,10 +16,11 @@ footer {
 	background-color: #666666; 
 	line-height: 40px;
 	padding: 20px;	
-    border-top-color: #4aaaa5;
-    border-top-style: solid;
-    border-top-width: 5px;
-	overflow: visible;
+    border-top: 5px solid #4aaaa5;
+}
+
+footer h6 {
+	color: #ffffff;
 }
 
 .icons {
@@ -34,5 +35,17 @@ footer {
 .contimg {
 	float: left;
 	margin-right: 10px;
+}
+
+.logo {
+	
+	background-color: #4aaaa5; 
+	text-align: center;
+	padding: 10px;
+
+} 
+
+.logo h1 {
+	color: #ffffff;  
 }
 
