@@ -7,9 +7,27 @@ footer {
     margin-top: 25px;
 }
 
+.bottommrg20 {
+	margin-bottom: 20px;
+}
+
+.contentbkg {
+	background-color: #ffffff;
+}
+
 .fullwidth {
 	width: 100%;
 }
+
+.paddingL-R {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.grybdr {
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 10px;
+} 
 
 
 /*  Classes based on homework assignment 1. For easy access, copied and commented out. 
