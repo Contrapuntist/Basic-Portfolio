@@ -28,6 +28,19 @@ footer {
 	padding-bottom: 20px;	
 }
 
+.imgport {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.portlabel {
+	width: 250px;
+	text-align: center;
+	padding: 25px;
+	position: absolute;
+	bottom: 20px;
+}
+
 
 /*  Classes based on homework assignment 1. For easy access, copied and commented out. 
 Will move above if I need to use to compliment or override Bootstrap styles. 
