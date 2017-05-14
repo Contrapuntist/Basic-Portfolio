@@ -12,88 +12,110 @@
 		
 		<!-- Personalized CSS -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">  
+		
+		<!-- Viewport tag for mobile responsiveness -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Boostrap JS + jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	</head>
 	<body>
 	
 	<div class="container">
 	
-			<header class="container-fluid">
-				<div class="navbar-header">
-					<div class="navbar-text navbar-right">
-						<h1>Miguel A. Cano</h1>
+		<!-- Navigation bar -->
+		<header>
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">Miguel A. Cano</a>
+			    </div>
+			    
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="index.html">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+		</header>
+			
+		<!-- Content Section Begins -->
+		<section class="container row">
+			
+			<!-- Left and primary of page section -->
+			<main class="col-md-8 col-sm-12 col-xs-12 bg-info padbtm20 bottommrg20">
+			
+				<div class="page-header">
+					<h2 class="paddingL-R">Portfolio</h2>
+				</div>
+				
+				<!-- Portfolio image sizes used 250px. Need to update for XS screen to fill 100%.  -->
+
+				<div class="col-md-12 col-sm-12 col-xs-12 paddingL-R">
+					<div class="col-md-6 col-sm-6 col-xs-12 imgport">
+						<img class="img-responsive" src="images/placeimg_275_200_tech1.jpg" alt="Project 1">
+						<div>
+							<h3 class="portlabel bg-success">Project 1</h3>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12 imgport">
+						<img class="img-responsive" src="images/placeimg_275_200_tech2.jpg" alt="Project 2">
+						<div>
+							<h3 class="portlabel bg-success">Project 2</h3>
+						</div>
+					</div>						
+					<div class="col-md-6 col-sm-6 col-xs-12 imgport">
+						<img class="img-responsive" src="images/placeimg_275_200_tech3.jpg" alt="Project 3">
+						<div>
+							<h3 class="portlabel bg-success">Project 3</h3>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12 imgport">
+						<img class="img-responsive" src="images/placeimg_275_200_tech4.jpg" alt="Project 4">
+						<div>
+							<h3 class="portlabel bg-success">Project 4</h3>
+						</div>
 					</div>
 				</div>
-				<nav class="container-fluid">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="index.html">About</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
-	
-			<section class="container row">
-				<main class="col-md-8 col-sm-12 col-xs-12 bg-info padbtm20">
-				
-					<div class="page-header">
-						<h2 class="paddingL-R">Portfolio</h2>
-					</div>
-					
-					<!-- Default image size is   -->
-
-					<div class="col-md-12 col-sm-12 col-xs-12 paddingL-R bottommrg20">
-						<div class="col-md-6 col-sm-6 col-xs-12 imgport">
-							<img class="img-responsive" src="images/placeimg_275_200_tech1.jpg" alt="Project 1">
-							<div>
-								<h3 class="portlabel bg-success">Project 1</h3>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12 imgport">
-							<img class="img-responsive" src="images/placeimg_275_200_tech2.jpg" alt="Project 2">
-							<div>
-								<h3 class="portlabel bg-success">Project 2</h3>
-							</div>
-						</div>						
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<img class="img-responsive" src="images/placeimg_275_200_tech3.jpg" alt="Project 3">
-							<div>
-								<h3 class="portlabel bg-success">Project 3</h3>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<img class="img-responsive" src="images/placeimg_275_200_tech4.jpg" alt="Project 4">
-							<div>
-								<h3 class="portlabel bg-success">Project 4</h3>
-							</div>
-						</div>
-					</div>
-				</main>
+			</main>
 			
-			<!--  troubleshooting why this moving into the footer. Same code as other pages though -->
-
+			<!-- Right Sidebar: Social / Repository  links -->
 			<aside class="col-md-3 col-md-offset-1 col-sm-12 col-xs-12 bg-info padbtm20">
 				<div class="page-header">
 					<h3 class="paddingL-R">Connect with Me</h3>			
 				</div>
 				<div>
 					<ul class="list-inline paddingL-R">
-						<li class="col-md-4"><a href="https://www.linkedin.com/in/miguelacano" target="_blank"><img class="img-responsive" src="images/linkedin.png"></a></li>
+						<li class="col-md-4 col-sm-2 col-xs-2"><a href="https://www.linkedin.com/in/miguelacano" target="_blank"><img class="img-responsive" src="images/linkedin.png"></a></li>
 						
-						<li class="col-md-4"><a  href="https://github.com/Contrapuntist/"><img class="img-responsive" src="images/1493807017_github_square_black.png"></a></li>
+						<li class="col-md-4 col-sm-2 col-xs-2"><a href="https://github.com/Contrapuntist/"><img class="img-responsive" src="images/1493807017_github_square_black.png"></a></li>
 						
-						<li class="col-md-4"><a href="#"><img class="img-responsive" src="images/stackoverflow.png
+						<li class="col-md-4 col-sm-2 col-xs-2"><a href="#"><img class="img-responsive" src="images/stackoverflow.png
 						"></a></li>
 					</ul>
 				</div>
 			</aside>
 		
-			</section>
+		</section>
+		
 		<footer class="fullwidth bg-primary">
 			<div>
 				<h6>@Copyright 2017 Miguel A. Cano</h6>
 			</div>
 		</footer>
+	
 	</div>
+	
 	</body>
 </html>
